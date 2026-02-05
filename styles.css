@@ -1,1 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background: #111;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 80px 32px;
+  background: #f4f4f4;
+}
+
+section {
+  padding: 60px 32px;
+  max-width: 900px;
+  margin: auto;
+}
 
